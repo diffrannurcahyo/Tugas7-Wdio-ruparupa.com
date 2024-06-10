@@ -1,5 +1,6 @@
 import {$, browser} from '@wdio/globals'
 
+// Produk sewaktu-waktu bisa berubah
 class InventoryPage {
     //element locators
     get tabSpesialOnline() { return $('button[name="promoMajorSpesialOnlineButton"]'); }

@@ -35,6 +35,7 @@ describe('FITUR INVENTORY SPECIAL ONE', function(){
         expect(url).toContain('https://www.ruparupa.com/acestore/')
     })
 
+    // Produk sewaktu-waktu bisa berubah
     it('User menampilkan detail produk Krisbow Lentera Led Rechargeable 10 Watt - Putih/hijau', async function () {
         await inventoryPage.bukaTabSpesialOnline()
         await inventoryPage.bukaDetailProdukKrisbow()
